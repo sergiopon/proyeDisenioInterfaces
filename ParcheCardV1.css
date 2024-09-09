@@ -1,0 +1,155 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+.parche-card-v1 {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
+    font-family: 'Poppins', sans-serif!important;
+    max-width: 320px;
+}
+
+.header-card-v1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.profile-card-v1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.textual-content-header-card-v1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.username-card-v1 {
+    font-size: 16px;
+    color: #06081F;
+    font-weight: 500;
+}
+
+.textual-content-header-card-v1 p {
+    font-size: 12px;
+    color: #9597A1;
+    margin: 0;
+}
+
+.featured-card-v1 {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.featured-img-card-v1 {
+    width: 320px;
+    height: 145px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.date-card-v1 {
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    width: 50px;
+    min-height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-card-v1 .day {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.date-card-v1 .month {
+    font-size: 12px;
+    color: #FF5353;
+}
+
+.body-card-v1 {
+    padding: 15px;
+}
+
+.body-card-v1 h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.body-card-v1 p {
+    font-size: 12px;
+    color: #9597A1;
+    margin: 0;
+}
+
+.bar-card-v1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.registered-card-v1 img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.registered-card-v1 img:not(:first-child) {
+    margin-left: -15px;
+}
+
+.bar-card-v1 i {
+    font-size: 20px;
+    color: #9597A1;
+}
+
+.footer-card-v1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 20px 15px;
+}
+
+.icon-div-card-v1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-div-card-v1 i {
+    font-size: 15px;
+    color: #9597A1;
+    background-color: #f1f2f3;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon-div-card-v1 i:hover,
+.icon-div-card-v1 i:active {
+    color: #3f9296;
+    background-color: #edfafa;
+}
+
+.icon-div-card-v1 span {
+    font-size: 12px;
+    color: #06081F;
+    margin-left: 5px;
+}
