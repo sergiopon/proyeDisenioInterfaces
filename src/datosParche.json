@@ -1,0 +1,55 @@
+[
+    {
+      "id": 1,
+      "username": "Isabella",
+      "profileImage": "https://pics.craiyon.com/2023-05-23/7130319ef5f04aed8eb8aaa6624b936e.webp",
+      "fecha": "2024-09-19",
+      "imagenDestacada": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e9/63/a5/plano-general-museo-la.jpg?w=1200&h=-1&s=1",
+      "dia": "19",
+      "mes": "Sep",
+      "titulo": "Visita al Museo La Tertulia",
+      "descripcionCorta": "Un recorrido por la historia latinoamericana a través de la expresión artística",
+      "likes": 120,
+      "comments": 45,
+      "usuariosRegistrados": [
+        { "profileImage": "https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/e40b6ea6361a1abe28f32e7910f63b66/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" },
+        { "profileImage": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Foto_Perfil_.jpg" },
+        { "profileImage": "https://png.pngtree.com/background/20230519/original/pngtree-young-woman-anime-cartoon-drawing-picture-image_2660945.jpg" }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "Isabella",
+      "profileImage": "https://pics.craiyon.com/2023-05-23/7130319ef5f04aed8eb8aaa6624b936e.webp",
+      "fecha": "2024-10-01",
+      "imagenDestacada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIQYDjoGeNK5jdd-q5gMqjJqUWXIANqG1F6A&s",
+      "dia": "01",
+      "mes": "Oct",
+      "titulo": "Visita grupal a Cristo Rey",
+      "descripcionCorta": "Conoce nuevas personas mientras recorren el emblemático monumento caleño",
+      "likes": 200,
+      "comments": 60,
+      "usuariosRegistrados": [
+        { "profileImage": "https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/e40b6ea6361a1abe28f32e7910f63b66/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" },
+        { "profileImage": "https://png.pngtree.com/background/20230519/original/pngtree-young-woman-anime-cartoon-drawing-picture-image_2660945.jpg" }
+      ]
+    },
+    {
+      "id": 3,
+      "username": "Isabella",
+      "profileImage": "https://pics.craiyon.com/2023-05-23/7130319ef5f04aed8eb8aaa6624b936e.webp",
+      "fecha": "2024-10-01",
+      "imagenDestacada": "https://images.saatchiart.com/saatchi/1428629/art/8575984/7639773-HSC00001-7.jpg",
+      "dia": "07",
+      "mes": "Oct",
+      "titulo": "Clases de acuarela",
+      "descripcionCorta": "¿Te gustaría aprender acuarela mientras conoces nuevas personas y tomas un café? este parche es pa vos",
+      "likes": 200,
+      "comments": 60,
+      "usuariosRegistrados": [
+        { "profileImage": "https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/e40b6ea6361a1abe28f32e7910f63b66/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" },
+        { "profileImage": "https://png.pngtree.com/background/20230519/original/pngtree-young-woman-anime-cartoon-drawing-picture-image_2660945.jpg" }
+      ]
+    }
+  ]
+  

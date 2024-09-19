@@ -1,0 +1,71 @@
+.home-ctn {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0 100px 0;
+}
+
+.home-ctn h1 {
+    color: #06081F;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.home-columns {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+.filter-ctn {
+    width: 35%;
+    position: relative; 
+}
+
+.filter-wrap {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px 20px 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.1);
+    position: sticky; 
+    top: 50px; 
+    z-index: 3;
+}
+
+.cards-ctn {
+    width: 65%;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center!important;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .home-columns{
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    .filter-ctn, .cards-ctn{
+        width: 100%;
+    }
+    .cards-ctn {
+        grid-template-columns: 1fr; 
+    }
+}
+
+.gradient-ctn {
+    min-height: 185px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    width: 100%;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}

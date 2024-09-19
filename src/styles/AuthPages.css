@@ -1,0 +1,54 @@
+.signup-container, .recuperar-contrasena-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    padding: 50px 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+
+  
+  .signup-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px; 
+  }
+  
+  .signup-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .signup-card {
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 45px 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 100%; 
+    max-width: 450px; 
+    text-align: center;
+  }
+
+  .signup-card .welcome-text {
+    color: #5CE1E6;
+  }
+
+  @media (max-width: 768px) {
+    .signup-container {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 60px 20px;
+    }
+    .signup-image {
+      width: 100%; 
+    }
+    .signup-card {
+        padding: 30px 20px;
+    }
+  }

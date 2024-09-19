@@ -1,10 +1,23 @@
-@import url('https://fonts.cdnfonts.com/css/poppins');
+.bar-card-v1 {
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.usuarios-inscritos-wrapper {
+    position: absolute;
+    top: -150px; 
+    width: 100%;
+    left: 80px;
+    z-index: 100;
+}
 
 .parche-card-v1 {
     background-color: white;
     border-radius: 15px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
-    font-family: 'Poppins', sans-serif!important;
     max-width: 320px;
 }
 
@@ -20,7 +33,9 @@
     height: 35px;
     border-radius: 50%;
     margin-right: 10px;
+    cursor: pointer;
 }
+
 
 .textual-content-header-card-v1 {
     display: flex;
@@ -31,6 +46,7 @@
     font-size: 16px;
     color: #06081F;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .textual-content-header-card-v1 p {
@@ -106,6 +122,7 @@
     height: 28px;
     border-radius: 50%;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 .registered-card-v1 img:not(:first-child) {
@@ -113,8 +130,14 @@
 }
 
 .bar-card-v1 i {
+    cursor: pointer;
     font-size: 20px;
     color: #9597A1;
+    transition: color .5s;
+}
+
+.bar-card-v1 i:hover, .bar-card-v1 i:active  {
+    color: #EF4444;
 }
 
 .footer-card-v1 {
@@ -129,6 +152,8 @@
     justify-content: center;
 }
 
+
+
 .icon-div-card-v1 i {
     font-size: 15px;
     color: #9597A1;
@@ -140,6 +165,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: ease-in .2s;
 }
 
 .icon-div-card-v1 i:hover,
@@ -152,4 +178,15 @@
     font-size: 12px;
     color: #06081F;
     margin-left: 5px;
+}
+
+.header-card-v1 {
+    position: relative;
+}
+
+@media (max-width: 768px){
+    .usuarios-inscritos-wrapper {
+        top: 40px;
+        left: 0;
+    }
 }

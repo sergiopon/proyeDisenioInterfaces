@@ -1,0 +1,15 @@
+.banner-page{
+    padding: 50px 40px;
+    background-color: #06081F;
+    margin: 0;
+}
+
+.banner-page h1 {
+    color: white;
+}
+
+.crear-parche-ctn {
+    padding: 40px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}

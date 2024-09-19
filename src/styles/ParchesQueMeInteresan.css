@@ -1,0 +1,23 @@
+.parches-me-interesan-ctn {
+    padding: 60px 0px;
+    max-width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.parches-que-me-interesan-wrapper{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center!important;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 768px){
+    .parches-que-me-interesan-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .parches-me-interesan-ctn {
+        padding: 50px 20px;
+    }
+}
